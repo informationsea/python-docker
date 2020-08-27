@@ -6,5 +6,5 @@ RUN apt-get update -y && \
 RUN pip3 install biopython scipy cython pandas pyfaidx pysam vcfpy flask jinja2\
     pyliftover pygments openpyxl pyexcel requests csvkit nose toml mypy flake8 \
     intervaltree pylint cwltool matplotlib virtualenv cyvcf2 pyyaml jsonschema \
-    seaborn psycopg2
+    seaborn psycopg2 simplevcf yapf
 RUN pip3 freeze > /requirements-freeze.txt
