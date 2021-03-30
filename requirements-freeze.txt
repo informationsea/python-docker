@@ -62,7 +62,7 @@ pyexcel==0.6.4
 pyexcel-io==0.5.20
 pyfaidx==0.5.9.1
 pyflakes==2.2.0
-Pygments==2.6.1
+Pygments==2.7.4
 pyliftover==0.4
 pylint==2.6.0
 pyparsing==2.4.7
