@@ -126,6 +126,7 @@ seaborn==0.11.2
 Send2Trash==1.8.0
 setuptools-scm==6.3.2
 shellescape==3.8.1
+simplevcf==0.2.0
 six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
@@ -148,3 +149,4 @@ websocket-client==1.2.1
 Werkzeug==2.0.2
 wrapt==1.13.3
 xlrd==2.0.1
+yapf==0.31.0
