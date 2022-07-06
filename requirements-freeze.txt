@@ -62,7 +62,7 @@ lazy-object-proxy==1.6.0
 leather==0.3.4
 lml==0.1.0
 lockfile==0.12.2
-lxml==4.6.4
+lxml==4.9.1
 MarkupSafe==2.0.1
 matplotlib==3.5.0
 matplotlib-inline==0.1.3
