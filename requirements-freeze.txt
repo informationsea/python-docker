@@ -14,7 +14,7 @@ bagit==1.8.1
 biopython==1.79
 bleach==4.1.0
 CacheControl==0.12.10
-certifi==2021.10.8
+certifi==2022.12.7
 cffi==1.15.0
 chardet==4.0.0
 charset-normalizer==2.0.8
