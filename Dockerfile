@@ -11,3 +11,7 @@ RUN apt-get update -y && \
     apt-get install -y libcurl4 libxml2 libopenblas0 tabix bcftools samtools && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
+COPY --from=build /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
+COPY --from=build /usr/local/bin /usr/local/bin
+COPY --from=build /usr/local/share /usr/local/share
+COPY --from=build /usr/local/man /usr/local/man
